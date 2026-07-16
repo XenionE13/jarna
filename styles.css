@@ -192,8 +192,6 @@ a {
         height: auto;
     }
 
-    
-
     .content-side {
         padding: 20px;
     }
@@ -207,7 +205,7 @@ a {
     }
 
     .image-side img {
-        height: 300px;
+        display: none;
     }
 
     .hero {
@@ -215,6 +213,6 @@ a {
     }
 
     nav {
-        gap: 15px;
+        gap: 12px;
     }
 }
