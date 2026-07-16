@@ -158,6 +158,7 @@ a {
     border: none;
     border-radius: 3px;
     font-family: "Fraunces", serif;
+    cursor: pointer;
 }
 
 .contact-us {
@@ -172,8 +173,48 @@ a {
     font-family: "Fraunces", serif;
 }
 
+.reserve-button:hover, .contact-us:hover {
+    opacity: 0.95;
+    cursor: pointer;
+}
+
 .site-footer {
     margin-top: 200px;
     font-family: "Fraunces", serif;
     color: #281B13;
+}
+
+/* Responsive styles (IPhone 12 Pro)*/
+
+@media (max-width: 800px) {
+    .page {
+        flex-direction: column;
+        height: auto;
+    }
+
+    
+
+    .content-side {
+        padding: 20px;
+    }
+
+    .site-nav {
+        font-size: 13px;
+    }
+
+    .review-cards {
+        flex-direction: column;
+    }
+
+    .image-side img {
+        height: 300px;
+    }
+
+    .hero {
+        font-size: 12px;
+    }
+
+    nav {
+        gap: 15px;
+    }
 }
